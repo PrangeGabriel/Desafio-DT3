@@ -1,11 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/index.css" />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <header>
+      <div class="separa-menu">
+        <img
+          class="logo-menu"
+          src="/images/logodt3.png"
+          alt="Logo da empresa"
+        />
+      </div>
+      <nav id="menu-header">
+        <ul>
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> Suporte </a></li>
+          <li><a href="#"> Empresa </a></li>
+        </ul>
+      </nav>
+      <!-- <h1><%= title %></h1>
+      <p>Bem vindo a página da loja <%= title %>!</p> -->
+    </header>
+
+    <main>
+      <div class="grade">
+        <div class="grade-item">
+          <img
+            class="card-img"
+            src="/images/Cadeira-Gamer-DT3sports-Spider-28-2-1440x1440.jpg"
+            alt="cadeira spider"
+          />
+          <div class="card-conteudo">
+            <h3>Titulo do produto 1</h3>
+            <p>Descrição do produto</p>
+          </div>
+        </div>
+        <div class="grade-item">
+          <img
+            class="card-img"
+            src="/images/GTI-red-2-2-1440x1440.jpg"
+            alt="cadeira GTI red"
+          />
+          <div class="card-conteudo">
+            <h3>Titulo do produto 2</h3>
+            <p>Descrição do produto</p>
+          </div>
+        </div>
+        <div class="grade-item">
+          <img
+            class="card-img"
+            src="/images/GTX-Red-12.jpg"
+            alt="cadeira GTX red"
+          />
+          <div class="card-conteudo">
+            <h3>Titulo do produto 3</h3>
+            <p>Descrição do produto</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-footer">
+        <div class="containers">
+          <div class="logo-config">
+            <img
+              class="logo-menu"
+              src="images/logodt3.png"
+              alt="Logo da Pagina"
+            />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <div class="segundo">
+            <nav class="conteudo">
+              <ul>
+                <li><a href="#">AJUDA</a></li>
+                <li><a href="#">TERMO DE USO</a></li>
+                <li><a href="#">POLÍTICA DE PRIVACIDADE</a></li>
+                <li><a href="#">ACEITE</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="terceiro">
+            <ul>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
+            </ul>
+          </div>
+        </div>
+        <!-- CAIXA DE BAIXO -->
+        <div class="rodape">
+          <h5>Copyright © 2021. Todos os direitos reservados.</h5>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
