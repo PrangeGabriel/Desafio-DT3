@@ -50,11 +50,18 @@ header ul li {
   align-items: center;
   width: 100%;
   align-items: start;
+  margin: 40px 0px;
 }
 .grade-item {
   display: flex;
   width: 64px;
   border-radius: 0.4rem;
+
+  flex-direction: column;
+
+  justify-content: center;
+  margin: 5px 10px;
+  font-size: 13px;
 }
 .card-img {
   display: block;
@@ -63,7 +70,8 @@ header ul li {
   object-fit: cover;
 }
 .card-conteudo {
-  padding: 3rem;
+  padding: 20px;
+  width: 250px;
 }
 
 /* FOOTER */
@@ -78,9 +86,16 @@ header ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 20px 0px 3px 0px;
+}
+.logo-footer {
+  width: 100px;
 }
 .logo-config {
-  width: 25%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .item {
   height: 250px;
@@ -92,8 +107,12 @@ header ul li {
 .config img {
   margin-top: 25px;
 }
+.segundo {
+  /*  */
+}
 
 .rodape {
   display: flex;
   justify-content: center;
+  padding: 5px;
 }
