@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%= title %></title>
+    <title>Desafio da Loja</title>
     <link rel="stylesheet" href="/stylesheets/index.css" />
   </head>
   <body>
@@ -36,8 +36,9 @@
             alt="cadeira spider"
           />
           <div class="card-conteudo">
-            <h3>Titulo do produto 1</h3>
-            <p>Descrição do produto</p>
+            <h3><%= lista[0].name %></h3>
+            <p><%= lista[0].description %></p>
+            <p><%= lista[0].price %></p>
           </div>
         </div>
         <div class="grade-item">
@@ -47,8 +48,9 @@
             alt="cadeira GTI red"
           />
           <div class="card-conteudo">
-            <h3>Titulo do produto 2</h3>
-            <p>Descrição do produto</p>
+            <h3><%= lista[1].name %></h3>
+            <p><%= lista[1].description %></p>
+            <p><%= lista[1].price %></p>
           </div>
         </div>
         <div class="grade-item">
@@ -58,8 +60,9 @@
             alt="cadeira GTX red"
           />
           <div class="card-conteudo">
-            <h3>Titulo do produto 3</h3>
-            <p>Descrição do produto</p>
+            <h3><%= lista[2].name %></h3>
+            <p><%= lista[2].description %></p>
+            <p><%= lista[2].price %></p>
           </div>
         </div>
       </div>
