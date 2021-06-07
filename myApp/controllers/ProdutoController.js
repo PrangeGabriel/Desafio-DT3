@@ -4,7 +4,14 @@ const ProdutoService = require("../services/ProdutoService");
 const controller = {
   index: async (req, res) => {
     const list = await ProdutoService.getProdutoList();
-    return res.render("index", { title: "DT3", lista: list });
+    const produto1 = list[Math.floor(Math.random() * list.length)];
+    const produto2 = list[Math.floor(Math.random() * list.length)];
+    const produto3 = list[Math.floor(Math.random() * list.length)];
+    return res.render("index", {
+      produto1: produto1,
+      produto2: produto2,
+      produto3: produto3,
+    });
     //lista com os produtos do banco de dados, passando pra view
   },
   create: async (req, res) => {
